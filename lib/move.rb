@@ -13,6 +13,6 @@ def input_to_index(user_input)
   return converted_input
 end
 
-def move(array, index, letter = 'x')
+def move(array, index, letter = 'X')
   puts array[index] = letter
 end
